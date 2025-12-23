@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ChatBot {
     public static void main(String[] args) {
         String botName = "MyBot";
-        int birthYear = 2025; // можешь поставить 2023, если хочешь как в примере
+        int birthYear = 2025;
 
         System.out.println("Hello! My name is " + botName + ".");
         System.out.println("I was created in " + birthYear + ".");
@@ -29,7 +29,7 @@ public class ChatBot {
         System.out.println("Now I will prove to you that I can count to any number you want!");
         int number = scanner.nextInt();
         for (int i = 0; i <= number; i++) {
-            System.out.println(i + " !");
+            System.out.println(i + ".");
         }
 
         // 5th stage
