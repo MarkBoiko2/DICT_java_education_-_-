@@ -1,5 +1,7 @@
 public class Test {
     public static void main(String[] args) {
-        System.out.println("Java education");
+        //comment
+        System.out.println("education");
+        System.out.println("DICT");
     }
 }
